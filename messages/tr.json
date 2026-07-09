@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "home": {
+      "title": "VonGuard Türkiye — Alman Mühendisliğiyle Yüzey Koruma",
+      "description": "PPF, göçük onarımı ve çizik giderme. 1987'den beri aynı standart. Garanti belgeniz, her zaman yanınızda."
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "VonGuard'ın mirası: Almanya'dan Türkiye'ye uzanan 37 yıllık yüzey koruma disiplini."
+    },
+    "services": {
+      "title": "Hizmetler",
+      "description": "PPF, göçük onarımı, çizik giderme ve kombine uygulamalar — tek çatı altında."
+    },
+    "ppf": {
+      "title": "Boya Koruma Filmi (PPF)",
+      "description": "Self-healing TPU koruma filmi. Taş çarpmalarına, çiziklere ve UV'ye karşı 10 yıla kadar garanti."
+    },
+    "scratch": {
+      "title": "Çizik Giderme",
+      "description": "Spot boyama, pasta-cila ve seramik bitiş ile çiziklerin profesyonel giderimi."
+    },
+    "dent": {
+      "title": "Göçük Onarımı (PDR)",
+      "description": "Paintless Dent Repair — boyaya dokunmadan orijinal yüzeyi koruyarak göçüklerin giderilmesi."
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Randevu, fiyat teklifi veya sorularınız için bize ulaşın."
+    },
+    "warranty": {
+      "title": "Garanti Sorgulama",
+      "description": "Garanti kartınızdaki kodu girerek uygulama geçmişinizi ve garanti durumunuzu görüntüleyin."
+    }
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "checkWarranty": "Garanti Sorgula"
+  },
+  "footer": {
+    "tagline": "Alman mühendisliğinden ilham alan yüzey koruma standartları — Türkiye'nin her yerinde.",
+    "navigate": "Sayfalar",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "servicePpf": "Boya Koruma Filmi",
+    "serviceDent": "Göçük Onarımı",
+    "serviceScratch": "Çizik Giderme",
+    "address": "Maslak, Sarıyer — İstanbul",
+    "rights": "Tüm hakları saklıdır.",
+    "madeIn": "Tasarım · Türkiye"
+  },
+  "hero": {
+    "eyebrow": "01 / Koruma",
+    "headlineA": "Alman mühendisliğiyle",
+    "headlineB": "korunan yüzeyler.",
+    "sub": "PPF, göçük onarımı ve çizik giderme — 1987'den beri aynı standart, aynı garanti, aynı disiplin.",
+    "primaryCta": "Garanti Sorgula",
+    "secondaryCta": "Hizmetlerimiz",
+    "trustA": "DEU 1987",
+    "trustB": "Türkiye Temsilcisi",
+    "trustC": "10 Yıl Garanti"
+  },
+  "stats": {
+    "eyebrow": "03 / Rakamlar",
+    "heading": "Her detay ölçülebilir.",
+    "yearsLabel": "Yıllık miras",
+    "vehiclesLabel": "Korunan araç",
+    "warrantyLabel": "Yıla kadar garanti",
+    "satisfactionLabel": "Memnuniyet"
+  },
+  "services": {
+    "eyebrow": "02 / Hizmetler",
+    "heading": "Bir çatı altında, üç uzmanlık.",
+    "sub": "Her uygulama aynı protokol, aynı malzeme kalitesi ve aynı garanti kartıyla belgelenir.",
+    "readMore": "Detay",
+    "ppf": {
+      "title": "Boya Koruma Filmi (PPF)",
+      "summary": "Self-healing TPU katman — taş çarpmalarına, çiziklere ve UV'ye karşı görünmez zırh.",
+      "b1": "7.5 mil kalınlık, optik şeffaflık",
+      "b2": "10 yıla kadar renk bozulması garantisi",
+      "b3": "Tam araç veya parça bazlı uygulama",
+      "heroCopy": "PPF, aracınızın boyasını kapsül içinde tutan şeffaf bir koruma katmanıdır. İnce çizikler ısıyla kendi kendini onarır; taş çarpması, yol tuzu ve UV üstünden geçer, altındaki boya dokunulmaz kalır.",
+      "specTitle": "Teknik özellikler",
+      "spec1Key": "Malzeme",
+      "spec1Value": "TPU — hidrofobik, anti-yellowing",
+      "spec2Key": "Kalınlık",
+      "spec2Value": "7.5 mil (standart) / 10 mil (ağır kullanım)",
+      "spec3Key": "Garanti",
+      "spec3Value": "5 / 7 / 10 yıl seçenekleri",
+      "spec4Key": "Uygulama süresi",
+      "spec4Value": "Tam araç: 3–5 gün, parça: 1 gün"
+    },
+    "dent": {
+      "title": "Göçük Onarımı (PDR)",
+      "summary": "Paintless Dent Repair — boya dokunulmadan orijinal yüzey korunarak göçük giderme.",
+      "b1": "Orijinal fabrika boyası korunur",
+      "b2": "Dolu hasarı, park vuruğu, kapı izi",
+      "b3": "Aynı gün teslim",
+      "heroCopy": "PDR yöntemi, özel aletlerle göçüğü arkadan iterek panelin orijinal formuna döndürür. Boya dokunulmaz, macun kullanılmaz; aracın ikinci el değeri düşmez ve uygulama saatler içinde tamamlanır.",
+      "specTitle": "Hangi hasarlar için uygun?",
+      "spec1Key": "Dolu hasarı",
+      "spec1Value": "Çok sayıda küçük-orta göçük için ideal",
+      "spec2Key": "Park vuruğu",
+      "spec2Value": "Boya kırılmamışsa tam geri dönüş",
+      "spec3Key": "Kapı izi",
+      "spec3Value": "Tek seanslık uygulama",
+      "spec4Key": "Sınır",
+      "spec4Value": "Boyası çatlamış veya yırtılmış paneller PDR dışındadır"
+    },
+    "scratch": {
+      "title": "Çizik Giderme",
+      "summary": "Spot boyama, pasta-cila ve seramik bitiş ile yüzey restorasyonu.",
+      "b1": "Yalnızca hasarlı bölgeye müdahale",
+      "b2": "Renk eşleştirme: OEM kodu üzerinden",
+      "b3": "İsteğe bağlı seramik koruma",
+      "heroCopy": "Çizikler derinliklerine göre farklı ele alınır: vernik-içi çizikler pasta-cila ile kaldırılır, boyaya inmiş derin çizikler spot boyama ile giderilir. Tüm uygulama alana özeldir; panelin tamamı boyanmaz.",
+      "specTitle": "Çizik tipine göre yaklaşım",
+      "spec1Key": "Vernik çiziği",
+      "spec1Value": "Pasta-cila ile tek seans",
+      "spec2Key": "Boya çiziği",
+      "spec2Value": "Spot boya + vernik, 1–2 gün",
+      "spec3Key": "Taş izi",
+      "spec3Value": "Dolgu + spot boya + PPF önerilir",
+      "spec4Key": "Sonrası",
+      "spec4Value": "İsteğe bağlı seramik veya PPF kapama"
+    },
+    "combo": {
+      "title": "Kombine Paketler",
+      "summary": "Çizik + PPF, Göçük + PPF veya üçlü kombinasyon — tek ziyarette tam restorasyon.",
+      "b1": "Tek garanti kartı, birleşik zaman çizelgesi",
+      "b2": "İndirimli paket fiyatı",
+      "b3": "Aynı uygulama ekibi, tek teslim"
+    }
+  },
+  "heritage": {
+    "eyebrow": "Miras",
+    "heading": "1987'den beri aynı disiplin.",
+    "p1": "VonGuard, Almanya'da yüzey koruma teknolojileri üzerine çalışan bir ekip tarafından kuruldu. Felsefemiz basit: otoban hızlarına ve kuzey kışlarına dayanan malzemeler geliştirmek, uygulama protokollerini belgelemek, sonucu garanti altına almak.",
+    "p2": "Bugün aynı standart, Türkiye Temsilciliği aracılığıyla Türk sürücülere sunuluyor — aynı malzemeler, aynı uygulama disiplini, aynı garanti süreleri.",
+    "t1Year": "1987",
+    "t1Label": "Kuruluş",
+    "t2Year": "2001",
+    "t2Label": "PPF teknolojisi",
+    "t3Year": "2015",
+    "t3Label": "Seramik bitiş protokolü",
+    "t4Year": "2024",
+    "t4Label": "Türkiye Temsilciliği"
+  },
+  "process": {
+    "eyebrow": "04 / Süreç",
+    "heading": "Dört adım, tek standart.",
+    "step1Title": "Randevu",
+    "step1Body": "Aracınızın modeli, rengi ve mevcut durumuna göre ön görüşme ve süre planlaması.",
+    "step2Title": "Analiz",
+    "step2Body": "Boya ölçümü, panel bazlı hasar haritası, fotoğraflı ön rapor.",
+    "step3Title": "Uygulama",
+    "step3Body": "Sınıflandırılmış oda, kontrollü sıcaklık, belgelenmiş protokol.",
+    "step4Title": "Garanti",
+    "step4Body": "Fiziksel garanti kartı + dijital kayıt, 10 yıla kadar izlenebilir."
+  },
+  "contactCta": {
+    "eyebrow": "İletişim",
+    "heading": "Aracınız için randevu.",
+    "sub": "Birkaç dakika içinde size ulaşalım.",
+    "cta": "İletişim Formu"
+  },
+  "contact": {
+    "heroEyebrow": "İletişim",
+    "heroHeading": "Konuşalım.",
+    "heroSub": "Randevu, fiyat teklifi veya sorularınız için formu doldurun ya da doğrudan arayın.",
+    "formTitle": "Mesaj gönder",
+    "nameLabel": "Ad Soyad",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "ornek@eposta.com",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+90 5xx xxx xx xx",
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Aracınız, hizmet tipi ve tercih ettiğiniz tarihi belirtin",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor…",
+    "success": "Mesajınız alındı. En kısa sürede dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "phoneTitle": "Telefon",
+    "phoneValue": "+90 212 555 00 00",
+    "emailTitle": "E-posta",
+    "emailValue": "info@vonguardturkiye.com",
+    "addressTitle": "Adres",
+    "addressValue": "Maslak Mah., Büyükdere Cad. No: 000, Sarıyer — İstanbul",
+    "hoursTitle": "Çalışma saatleri",
+    "hoursWeek": "Pazartesi — Cumartesi: 09:00 – 19:00",
+    "hoursSun": "Pazar: Kapalı"
+  },
+  "warranty": {
+    "heroEyebrow": "Garanti",
+    "heroHeading": "Kartınızdaki kodu girin.",
+    "heroSub": "Garanti kartınızın üzerindeki QR kodu okutun ya da kodu aşağıya girin. Aracınızın tüm uygulama geçmişini, öncesi/sonrası fotoğraflarını ve kalan garanti sürenizi görüntüleyin.",
+    "codeLabel": "Garanti kodu",
+    "codePlaceholder": "VG-2026-A7K9",
+    "submit": "Sorgula",
+    "help": "Kartınız yok mu? Uygulamanızı kaydetmemiz için",
+    "helpLink": "iletişime geçin",
+    "whatTitle": "Sorgulamada ne görebilirim?",
+    "whatBullet1": "Aracınızın öncesi / sonrası fotoğrafları",
+    "whatBullet2": "Hangi uygulamaların yapıldığı ve tarihleri",
+    "whatBullet3": "Her uygulamanın kalan garanti süresi",
+    "whatBullet4": "Yenileme ve ek işlem geçmişi"
+  },
+  "notFound": {
+    "code": "404",
+    "heading": "Sayfa bulunamadı.",
+    "sub": "Aradığınız sayfa taşınmış veya hiç var olmamış olabilir.",
+    "back": "Ana sayfaya dön"
+  }
+}

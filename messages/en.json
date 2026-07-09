@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "home": {
+      "title": "VonGuard Türkiye — German-Engineered Surface Protection",
+      "description": "Paint Protection Film, paintless dent repair, and scratch correction. The same standard since 1987. Your warranty, always with you."
+    },
+    "about": {
+      "title": "About",
+      "description": "VonGuard's heritage: 37 years of surface-protection discipline, from Germany to Türkiye."
+    },
+    "services": {
+      "title": "Services",
+      "description": "PPF, paintless dent repair, scratch correction, and combined protection — under one roof."
+    },
+    "ppf": {
+      "title": "Paint Protection Film (PPF)",
+      "description": "Self-healing TPU film. Up to 10-year warranty against stone chips, scratches, and UV."
+    },
+    "scratch": {
+      "title": "Scratch Correction",
+      "description": "Professional scratch removal via spot paint, cut-and-polish, and ceramic finishing."
+    },
+    "dent": {
+      "title": "Paintless Dent Repair (PDR)",
+      "description": "Dent repair with zero paint disturbance — preserving your factory finish."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Appointments, quotes, or questions — get in touch."
+    },
+    "warranty": {
+      "title": "Warranty Lookup",
+      "description": "Enter the code from your warranty card to view your service history and remaining coverage."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "checkWarranty": "Check Warranty"
+  },
+  "footer": {
+    "tagline": "Surface protection standards inspired by German engineering — delivered across Türkiye.",
+    "navigate": "Sitemap",
+    "services": "Services",
+    "contact": "Contact",
+    "servicePpf": "Paint Protection Film",
+    "serviceDent": "Dent Repair",
+    "serviceScratch": "Scratch Correction",
+    "address": "Maslak, Sarıyer — Istanbul",
+    "rights": "All rights reserved.",
+    "madeIn": "Designed · Türkiye"
+  },
+  "hero": {
+    "eyebrow": "01 / Protection",
+    "headlineA": "German-engineered",
+    "headlineB": "surface protection.",
+    "sub": "Paint protection film, paintless dent repair, and scratch correction — the same standard, the same warranty, the same discipline since 1987.",
+    "primaryCta": "Check Warranty",
+    "secondaryCta": "Our Services",
+    "trustA": "DEU 1987",
+    "trustB": "Türkiye Representative",
+    "trustC": "10-Year Warranty"
+  },
+  "stats": {
+    "eyebrow": "03 / Numbers",
+    "heading": "Every detail is measured.",
+    "yearsLabel": "Years of heritage",
+    "vehiclesLabel": "Vehicles protected",
+    "warrantyLabel": "Year maximum warranty",
+    "satisfactionLabel": "Satisfaction"
+  },
+  "services": {
+    "eyebrow": "02 / Services",
+    "heading": "One roof. Three disciplines.",
+    "sub": "Every application follows the same protocol, uses the same material grade, and ships with the same warranty card.",
+    "readMore": "Details",
+    "ppf": {
+      "title": "Paint Protection Film (PPF)",
+      "summary": "Self-healing TPU layer — invisible armor against stone chips, scratches, and UV.",
+      "b1": "7.5 mil, optically clear",
+      "b2": "Up to 10-year warranty against yellowing",
+      "b3": "Full-body or per-panel application",
+      "heroCopy": "PPF is a transparent protective layer that encapsulates your paintwork. Micro-scratches self-heal with heat; stone chips, road salt, and UV pass over it — leaving the paint underneath untouched.",
+      "specTitle": "Technical specification",
+      "spec1Key": "Material",
+      "spec1Value": "TPU — hydrophobic, anti-yellowing",
+      "spec2Key": "Thickness",
+      "spec2Value": "7.5 mil (standard) / 10 mil (heavy-duty)",
+      "spec3Key": "Warranty",
+      "spec3Value": "5 / 7 / 10-year options",
+      "spec4Key": "Turnaround",
+      "spec4Value": "Full body: 3–5 days, per panel: 1 day"
+    },
+    "dent": {
+      "title": "Paintless Dent Repair (PDR)",
+      "summary": "Dent removal without disturbing the paint — factory finish preserved.",
+      "b1": "Factory paint preserved",
+      "b2": "Hail damage, door dings, parking knocks",
+      "b3": "Same-day turnaround",
+      "heroCopy": "PDR uses specialized tools to push the dent back to its original form from behind the panel. No paintwork, no filler; resale value is preserved and the job completes in hours, not days.",
+      "specTitle": "Which damage types fit?",
+      "spec1Key": "Hail damage",
+      "spec1Value": "Ideal for many small-to-mid dents",
+      "spec2Key": "Door ding",
+      "spec2Value": "Full recovery if paint is intact",
+      "spec3Key": "Parking knock",
+      "spec3Value": "Single-session fix",
+      "spec4Key": "Limit",
+      "spec4Value": "Panels with cracked or torn paint fall outside PDR"
+    },
+    "scratch": {
+      "title": "Scratch Correction",
+      "summary": "Spot paint, cut-and-polish, and ceramic finishing — surface restoration.",
+      "b1": "Only the affected area is worked",
+      "b2": "Color match: via OEM paint code",
+      "b3": "Optional ceramic seal",
+      "heroCopy": "Scratches are approached by depth: clear-coat-only scratches lift with cut-and-polish; scratches into base paint are spot-painted. The intervention is localized — the full panel is never repainted unnecessarily.",
+      "specTitle": "Approach by scratch depth",
+      "spec1Key": "Clear-coat",
+      "spec1Value": "Cut-and-polish, single session",
+      "spec2Key": "Base-paint",
+      "spec2Value": "Spot paint + clear, 1–2 days",
+      "spec3Key": "Stone chip",
+      "spec3Value": "Fill + spot paint + PPF recommended",
+      "spec4Key": "Finish",
+      "spec4Value": "Optional ceramic or PPF seal"
+    },
+    "combo": {
+      "title": "Combined Packages",
+      "summary": "Scratch + PPF, Dent + PPF, or the triple combo — full restoration in a single visit.",
+      "b1": "One warranty card, unified timeline",
+      "b2": "Package pricing",
+      "b3": "Same crew, single handover"
+    }
+  },
+  "heritage": {
+    "eyebrow": "Heritage",
+    "heading": "The same discipline since 1987.",
+    "p1": "VonGuard was founded in Germany by a team working on surface-protection technologies. Our philosophy is straightforward: engineer materials that hold up to autobahn speeds and northern winters, document the application protocols, and stand behind the outcome.",
+    "p2": "That same standard is now delivered to Turkish drivers through the Türkiye representative — the same materials, the same application discipline, the same warranty durations.",
+    "t1Year": "1987",
+    "t1Label": "Founded",
+    "t2Year": "2001",
+    "t2Label": "PPF technology",
+    "t3Year": "2015",
+    "t3Label": "Ceramic finish protocol",
+    "t4Year": "2024",
+    "t4Label": "Türkiye representation"
+  },
+  "process": {
+    "eyebrow": "04 / Process",
+    "heading": "Four steps, one standard.",
+    "step1Title": "Booking",
+    "step1Body": "Pre-consultation based on your vehicle's model, color, and current state.",
+    "step2Title": "Analysis",
+    "step2Body": "Paint depth measurement, panel-level damage map, photographed pre-report.",
+    "step3Title": "Application",
+    "step3Body": "Class-controlled room, regulated temperature, documented protocol.",
+    "step4Title": "Warranty",
+    "step4Body": "Physical warranty card + digital record — traceable for up to 10 years."
+  },
+  "contactCta": {
+    "eyebrow": "Contact",
+    "heading": "Book your vehicle.",
+    "sub": "We'll get back to you within minutes.",
+    "cta": "Contact Form"
+  },
+  "contact": {
+    "heroEyebrow": "Contact",
+    "heroHeading": "Let's talk.",
+    "heroSub": "For appointments, quotes, or questions — fill in the form or call us directly.",
+    "formTitle": "Send a message",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "+90 5xx xxx xx xx",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your vehicle, service type, and preferred date",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "success": "Your message was received. We'll get back to you shortly.",
+    "error": "Something went wrong. Please try again.",
+    "phoneTitle": "Phone",
+    "phoneValue": "+90 212 555 00 00",
+    "emailTitle": "Email",
+    "emailValue": "info@vonguardturkiye.com",
+    "addressTitle": "Address",
+    "addressValue": "Maslak, Büyükdere Cad. No: 000, Sarıyer — Istanbul",
+    "hoursTitle": "Opening hours",
+    "hoursWeek": "Monday — Saturday: 09:00 – 19:00",
+    "hoursSun": "Sunday: Closed"
+  },
+  "warranty": {
+    "heroEyebrow": "Warranty",
+    "heroHeading": "Enter the code from your card.",
+    "heroSub": "Scan the QR on your warranty card or enter the code below. See every application on your vehicle, before/after photos, and your remaining coverage.",
+    "codeLabel": "Warranty code",
+    "codePlaceholder": "VG-2026-A7K9",
+    "submit": "Look up",
+    "help": "No card yet? To register your application,",
+    "helpLink": "get in touch",
+    "whatTitle": "What will I see?",
+    "whatBullet1": "Before / after photos of your vehicle",
+    "whatBullet2": "Which services were applied and when",
+    "whatBullet3": "Remaining warranty on each application",
+    "whatBullet4": "Reapplication and follow-up history"
+  },
+  "notFound": {
+    "code": "404",
+    "heading": "Page not found.",
+    "sub": "The page you're looking for may have moved, or never existed.",
+    "back": "Back to home"
+  }
+}
