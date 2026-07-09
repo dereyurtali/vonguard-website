@@ -53,6 +53,38 @@ Design decisions baked into the schema (`supabase/migrations/`):
 - **Abuse-resistant lookups** — every public query is recorded in `lookup_attempts` (IP, code, success), backing rate limiting configured via `RATE_LIMIT_LOOKUP_MAX` / `RATE_LIMIT_LOOKUP_WINDOW_SECONDS` (default 10 lookups / 10 min per IP), so codes can't be brute-forced.
 - **Private photo storage** — the storage bucket is non-public; the server hands out short-lived signed URLs, so before/after photos can't be hotlinked or enumerated.
 
+## Database schema
+
+Eight tables, three Postgres enums, RLS on everything. The model separates the *card* (one per vehicle, what the customer holds) from the *applications* on it (individual jobs, each with its own warranty clock):
+
+```mermaid
+erDiagram
+    profiles ||--o{ warranty_cards : "created_by"
+    warranty_cards ||--o{ service_applications : "jobs on this card"
+    service_applications ||--o{ application_photos : "before/after"
+    service_applications ||--o{ application_logs : "timeline"
+    service_applications ||--o{ service_application_components : "combo breakdown"
+    service_applications |o--o{ service_applications : "rework / extension"
+```
+
+| Table | Purpose |
+| --- | --- |
+| `profiles` | 1:1 with `auth.users`; `owner`/`staff` roles drive the `is_admin()` RLS helper |
+| `warranty_cards` | One per vehicle — customer, vehicle, and the printed `VG-YYYY-XXXX` code (`citext` unique for case-insensitive lookup) |
+| `service_applications` | One per job; `service_kind` enum (`ppf`, `scratch`, `dent` + 3 combos), warranty duration constrained to 5/6/7/10 years, `expires_at` computed at write time |
+| `service_application_components` | Which atomic services make up a combo — kept relational for reporting instead of parsing enum names |
+| `application_photos` | `photo_kind` enum (`before`/`after`/`progress`/`update`) + `sort_order`; rows store dimensions and byte size, files live in the private bucket |
+| `application_logs` | Append-only timeline per job (`applied`, `inspection`, `rework`, `note`, `warranty_extended`) |
+| `lookup_attempts` | Every public lookup with IP and outcome — the raw material for rate limiting |
+| `contact_messages` | Contact form submissions with locale |
+
+Design details worth noting:
+
+- **Warranty history is append-only.** A rework or extension is a *new* `service_applications` row with `is_primary = false` pointing at the original via `parent_application_id` — the original record and its expiry are never mutated, so disputes can always be traced.
+- **Enums where the domain is closed, rows where it isn't.** Service kinds, photo kinds, and log kinds are Postgres enums (typo-proof, index-friendly); combo composition is a join table because reporting needs to ask "all jobs that included PPF" without string-matching enum names.
+- **Indexes follow the real access patterns** — `(card_id, applied_on desc)` for the card detail page, `(expires_at)` for expiry reminders, `(ip, created_at desc)` for the rate-limit window scan, `(application_id, kind, sort_order)` for photo galleries.
+- **`updated_at` maintained by trigger** (`set_updated_at()`), not by application code — one less invariant for every future writer to remember.
+
 ## Cost engineering — fitting a business on the free tier
 
 The brief was to run the whole platform for roughly the price of a domain in year one, so the storage budget is engineered rather than hoped for:
