@@ -2,6 +2,8 @@
 
 Bilingual marketing site and warranty-verification platform for a vehicle surface-protection studio (PPF, paintless dent repair, scratch removal), built with the Next.js 16 App Router.
 
+**Live demo:** [vonguard-website.vercel.app](https://vonguard-website.vercel.app) — Turkish default, [English version](https://vonguard-website.vercel.app/en) via the locale switcher.
+
 ![VonGuard homepage](docs/screenshot-home.png)
 
 ## Highlights
